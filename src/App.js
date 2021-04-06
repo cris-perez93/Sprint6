@@ -3,7 +3,11 @@ import Book from './components/Book'
 
 function App() {
   return (
-  <Book/>
+
+    <Book
+        titulo = "Viatge a la lluna" 
+    />
+    
   );
 }
 
